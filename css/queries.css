@@ -1,0 +1,216 @@
+/* Big tablets to 1300px (widths smaller than 1140 pixel row)*/
+@media only screen and (max-width: 1200px) {
+    .title{
+        display:flex;
+        flex:0 0 45%;
+        margin-bottom: 50px;
+        margin-top:100px;
+      }
+      .title__heading{
+        width:100%;
+        font-family:'PT Serif';
+        font-weight: 600;
+        font-size:150%;      
+      }
+      img{
+          height: 300px;
+          width: 200px;
+      }
+      .title__text{
+          margin-left:350px;
+          margin-bottom:50px;      
+      }
+      .title__text-heading{
+          font-weight: 600;
+          margin-bottom: 15px;
+          font-size:110%;
+      }
+      .title__text-text{
+        width:100%;
+      }
+      .cimg{
+        display:flex;
+        flex:0 0 45%;
+        justify-content:center;
+        width:100%;
+        margin-bottom: 100px;
+      }
+      .cimg img{
+          display:block;
+          margin-bottom: 5px;
+      }
+      .cimg p{
+        writing-mode: vertical-rl;
+        font-size:66%;
+        font-weight: 400;
+        -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: vertical-rl;
+    }
+      .cimg_1{
+        font-weight:650;
+      }
+      .imgs_1,.imgs_2,.imgs_3{
+          display:flex;
+          flex-direction: column;
+          margin-right:100px;
+          height:100%
+      }
+      .imgs_2{
+        margin-top: 100px;
+        height: 80%;
+      }
+      .imgs_3{
+          margin-right:0;
+      }
+      .imgs{
+        display: flex;
+        flex:0 0 65%;
+      }
+  }
+  /* Small tablets - big Tablet 836 - 1023px*/
+  @media only screen and (max-width: 1023px) {
+    body {
+      padding: 25px;
+      font-size:140%;
+    }
+    .cimg {
+        width: 100%;
+    }
+  }
+  /* small phones to small tablets 481 - 836px*/
+  @media only screen and (max-width: 836px) {
+    .title{
+        display:block;
+        margin-bottom: 50px;
+        margin-top:100px;
+      }
+      .title__heading{
+        width:100%;
+        font-family:'PT Serif';
+        font-weight: 700;
+        font-size:220%;
+        margin-bottom:25px;      
+      }
+      .title__text{
+          margin-left: 0;
+          margin-bottom:50px;      
+      }
+      .title__text-heading{
+          font-weight: 600;
+          margin-bottom: 15px;
+      }
+      .title__text-text{
+        width:100%;
+      }
+      .cimg{
+        display:flex;
+        width:100%;
+        height: auto;
+        margin-bottom: 100px;
+        margin-right: 15px;
+      }
+      .cimg img{
+          display:block;
+          margin-bottom: 5px;      
+      }
+      .cimg p{
+        writing-mode: vertical-rl;
+        font-size:56%;
+        font-weight: 400;
+        -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: vertical-rl;
+    }
+      .cimg_1,.cimg_2{
+        font-weight:600;
+      }
+      .cimg_1{
+          margin-right:3px;
+      }
+      .cimg_2{
+          margin-top: 75px;
+          margin-bottom:0;
+      }
+      .imgs_1,.imgs_2,.imgs_3{
+          display:flex;
+          flex-direction:row;
+          flex:0 0 45%;
+          margin-right:100px;
+          height:100%
+      }
+      .imgs_2{
+        margin-top: 0;
+        height: 80%;
+      }
+      .imgs{
+        display: flex;
+        flex-direction: column;        
+      }
+    
+  }
+  /* small phones 0 - 480px*/
+  @media only screen and (max-width: 480px) {
+    .title{
+        display:block;
+        margin-bottom: 50px;
+        margin-top:100px;
+      }
+      .title__heading{
+        width:100%;
+        font-family:'PT Serif';
+        font-weight: 700;
+        font-size:220%;
+        margin-bottom:25px;      
+      }
+      .title__text{
+          margin-left: 0;
+          margin-bottom:50px;      
+      }
+      .title__text-heading{
+          font-weight: 600;
+          margin-bottom: 15px;
+      }
+      .title__text-text{
+        width:100%;
+      }
+      .cimg{
+        display:flex;
+        width:100%;
+        height: auto;
+        margin-bottom: 30px;
+      }
+      .cimg img{
+          display:block;
+          margin-bottom: 5px;      
+      }
+      .cimg p{
+        writing-mode: vertical-rl;
+        font-size:56%;
+        font-weight: 400;
+        -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: vertical-rl;
+    }
+      .cimg_1,.cimg_2{
+        font-weight:600;
+      }
+      .cimg_1{
+          margin-right:0;
+      }
+      .cimg_2{
+          margin-top: 0;
+          margin-bottom:30px;
+      }
+      .imgs_1,.imgs_2,.imgs_3{
+          display:block;
+          margin-right:0;
+          height:100%
+      }
+      .imgs_2{
+        margin-top: 0;
+        height: 80%;
+      }
+      .imgs{
+        display: block;        
+      }
+      
+  }
+  
